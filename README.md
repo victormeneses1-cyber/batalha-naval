@@ -1,34 +1,48 @@
-#  Batalha Naval em C
+##  Níveis do Projeto
 
-Projeto acadêmico desenvolvido em linguagem C com foco na aplicação de vetores (arrays unidimensionais) e matrizes (arrays bidimensionais).
-
-Este desafio representa o primeiro passo na construção de um jogo de Batalha Naval, simulando o posicionamento de navios em um tabuleiro 10x10.
+O projeto foi dividido em três níveis de complexidade, demonstrando a evolução na aplicação dos conceitos de matrizes e validações em C.
 
 ---
 
-##  Objetivo do Projeto
+###  Nível Novato
 
-- Representar um tabuleiro 10x10 utilizando matriz bidimensional
-- Inicializar todas as posições com 0 (água)
-- Criar dois navios de tamanho fixo (3 posições)
-- Posicionar:
-  - 1 navio horizontal
-  - 1 navio vertical
-- Validar limites do tabuleiro
-- Evitar sobreposição
-- Exibir o tabuleiro no console
+Neste nível, o foco está nos fundamentos:
 
----
+- Criação de um tabuleiro 10x10 utilizando matriz bidimensional
+- Inicialização de todas as posições com valor 0 (água)
+- Posicionamento de dois navios de tamanho fixo (3 posições)
+  - Um navio horizontal
+  - Um navio vertical
+- Validação simples para garantir que os navios não ultrapassem os limites do tabuleiro
+- Exibição organizada do tabuleiro no console
 
-##  Conceitos Aplicados
-
-- Matrizes (arrays bidimensionais)
-- Vetores (arrays unidimensionais)
-- Estruturas de repetição (for)
-- Estruturas condicionais (if)
-- Validação de limites
-- Organização e legibilidade de código
+Objetivo: Demonstrar compreensão básica de vetores, matrizes e estruturas de repetição.
 
 ---
 
-##  Estrutura do Projeto
+###  Nível Aventureiro
+
+Neste nível, o programa evolui para incluir maior controle e validação:
+
+- Verificação completa de sobreposição antes do posicionamento
+- O navio só é inserido se todas as posições estiverem livres
+- Melhor organização da lógica de verificação
+
+Objetivo: Aplicar validações mais robustas e melhorar a segurança do posicionamento no tabuleiro.
+
+---
+
+###  Nível Mestre
+
+Neste nível, o código é estruturado de forma mais profissional:
+
+- Separação da lógica em funções (inicializar, validar, posicionar, exibir)
+- Controle de orientação (horizontal ou vertical) por parâmetro
+- Código mais modular e organizado
+- Melhor reaproveitamento de lógica
+
+Objetivo: Demonstrar maior domínio da organização de código, modularização e boas práticas em C.
+
+---
+
+Cada nível representa uma evolução na complexidade e na organização do código, reforçando os conceitos fundamentais de programação estruturada.
